@@ -25,14 +25,7 @@ def fetch_api(url, retries):
 
 def transform_data(api_data):
     transformed_data = []
-    # if api_data and 'data' in api_data and 'channels' in api_data['data']:
-    #     for channel in api_data['data']['channels']:
-    #         if 'clearkeys' in channel and channel['clearkeys']:
-    #             for clearkey in channel['clearkeys']:
-    #                 if 'base64' in clearkey:
-    #                     transformed_channel = clearkey['base64']
-    #                     transformed_channel["channel_id"] = channel['id']
-    #                     transformed_data.append(transformed_channel)
+
     return api_data['data']
 
 def main():
