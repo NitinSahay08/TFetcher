@@ -28,8 +28,8 @@ jobs:
 
     - name: Check for changes and commit
       run: |
-        git config --global user.name 'jtvpremium'
-        git config --global user.email 'jtvpremium@outlook.com'
+        git config --global user.name 'krishnam'
+        git config --global user.email 'krishna@outlook.com'
         if [ -n "$(git status --porcelain)" ]; then
           git add fetcher.json
           git commit -m 'Update fetcher.json'
