@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Constants
-API_URL = "https://tataplay-urls.vercel.app/origin.json"
+API_URL = "https://myfetcherkaido.vercel.app/fetcher.json"
 RETRIES = 3
 
 def fetch_api(url, retries):
